@@ -9,7 +9,7 @@ const article = ({article}) => {
     <>
       <div className={styles.container}>
         <h1>{article.title}</h1>
-        <p>{article.body_html}</p>
+        <p>{article.body_markdown}</p>
         <br />
         <Link href='/'>Go Back</Link>
       </div>
